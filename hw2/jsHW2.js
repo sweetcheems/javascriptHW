@@ -9,14 +9,14 @@ let number = 2
 // 1*. Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2
 let degree = 0
 let exponent = function(degree) {
-    for (i = degree; i <= 10; i++) {
+    for (i = 1; i <= degree; i++) {
     number = 2
     number = number ** i
     console.log(number)
 }
 }
 
-exponent(4)
+exponent()
 
 // 2. Написать скрипт, который выведет 5 строк в консоль таким образом, чтобы в первой строчке выводилось :), во второй :):) и так далее
 // Пример в консоли:
@@ -28,16 +28,13 @@ exponent(4)
 let smile = ":)"
 let times = 0
 
-let repeatedStrings = function(string) {
-    repeatedString = ""
-    while (times < 5) {
-    repeatedString += string
+repeatedString = ""
+while (times < 5) {
+    repeatedString += smile
     console.log(repeatedString)
     times++
 }
-}
 
-repeatedStrings(smile)
 
 // 2*. Преобразовать 2 задачу в функцию, принимающую на вход строку, которая и будет выводиться в консоль (как в условии смайлик), а также количество строк для вывода 
 // e.g. function printSmile(stroka, numberOfRows)
