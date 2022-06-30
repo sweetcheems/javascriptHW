@@ -7,7 +7,6 @@ let number = 2
 }
 
 // 1*. Преобразовать 1 задачу в функцию, принимающую на вход степень, в которую будет возводиться число 2
-let degree = 0
 let exponent = function(degree) {
     for (i = 1; i <= degree; i++) {
     number = 2
